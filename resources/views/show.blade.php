@@ -106,9 +106,23 @@
       margin-top: 10px;
       margin-right: 20px;
     }
+    
+    .editor {
+      margin-top: 47px;
+    }
   
 </style>
 <div class="create-blade-php">
+  
+  <!--<div class="editor">-->
+  <!--       <span class="text-muted">作成者</span>-->
+  <!--       <p><a href="{{ action('UsersController@index') }}" class="text-secondary"><small>&#64;{{Auth::user()->name}}</small></a></p>-->
+  <!--</div>-->
+  <div class="editor">
+         <span class="text-muted">作成者</span>
+         <p><a href="#" class="text-secondary"><small>&#64;{{$posts->user->name}}</small></a></p>
+  </div>
+  
   <div class="form">
     <div class="form-group form-group1">
       <div class="contents1">

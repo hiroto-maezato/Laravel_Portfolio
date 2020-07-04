@@ -162,6 +162,8 @@
       </div>
       
        </form>
+       
+       
      
     <div class="comment-show">
       @foreach( $comments as $comment ) 
@@ -176,6 +178,9 @@
       </div>
       @endforeach
     </div>
+  </div>
+  
+  </div>
   </div>
 
 @endsection
